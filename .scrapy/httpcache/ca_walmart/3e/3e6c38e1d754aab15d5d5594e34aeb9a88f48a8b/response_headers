@@ -1,0 +1,36 @@
+Accept-Ranges: bytes
+Content-Encoding: gzip
+Content-Security-Policy: script-src sc-static.net *.walmart.ca *.walmartimages.ca *.wal.co assets.adobedtm.com *.googleadservices.com *.google.ca *.google.com *.gstatic.com *.google-analytics.com *.bing.com *.googletagservices.com *.paypal.com *.paypalobjects.com *.foresee.com *.walmartimages.com *.doubleclick.net *.googlesyndication.com *.criteo.com *.criteo.net *.scorecardresearch.com *.answerscloud.com *.cdn.ampproject.org *.newrelic.com *.ordergroove.com *.facebook.net bam.nr-data.net *.webcollage.net *.iesnare.com *.demdex.net *.googleapis.com *.2mdn.net *.walmart.com *.omtrdc.net *.circularhub.com *.youtube.com *.postescanada-canadapost.ca *.bazaarvoice.com *.ytimg.com *.device.4seeresults.com *.custhelp.com *.rnengage.com *.moatads.com *.casalemedia.com *.hlserve.com dnisjsqid2b9p.cloudfront.net *.myregistry.com *.rmtag.com *.pinimg.com *.storetail.io *.storetail.net *.agkn.com *.facebook.com *.googletagmanager.com *.perimeterx.net *.recaptcha.net *.gstatic.cn 'unsafe-inline' 'unsafe-eval'; base-uri * 'self';
+Content-Type: text/html; charset=UTF-8
+Last-Modified: Mon, 16 Nov 2020 02:25:16 GMT
+Request-Id: 5621455
+Request-Time: 7ms
+Served-By: play-277124768-18-436309956
+Timing-Allow-Origin: *
+X-Frame-Options: SAMEORIGIN
+X-Tb: 1
+X-Tb-Optimization-Total-Bytes-Saved: 0
+Expires: Mon, 16 Nov 2020 02:25:17 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 16 Nov 2020 02:25:17 GMT
+Vary: Accept-Encoding
+Set-Cookie: walmart.shippingPostalCode=L5V2N6; Max-Age=31540000; Expires=Tue, 16 Nov 2021 03:31:57 GMT; Path=/
+Set-Cookie: defaultNearestStoreId=1061; Max-Age=31540000; Expires=Tue, 16 Nov 2021 03:31:57 GMT; Path=/
+Set-Cookie: originalHttpReferer=; Max-Age=900; Expires=Mon, 16 Nov 2020 02:40:17 GMT; Path=/
+Set-Cookie: localStoreInfo=eyJsb2NhbFN0b3JlSWQiOiIxMDYxIiwic2VsZWN0ZWRTdG9yZUlkIjoiMTA2MSIsInBvc3RhbENvZGUiOiJMNVYyTjYiLCJzZWxlY3RlZFN0b3JlTmFtZSI6IkhlYXJ0bGFuZCBTdXBlcmNlbnRyZSIsImZ1bGZpbGxtZW50U3RvcmVJZCI6IjEwNjEiLCJmdWxmaWxsbWVudFR5cGUiOiJJTlNUT1JFX1BJQ0tVUCIsImFzc2lnbmVkRmFsbGJhY2siOnRydWV9; Max-Age=5184000; Expires=Fri, 15 Jan 2021 02:25:17 GMT; Path=/
+Set-Cookie: walmart.preferredstore=1061; Max-Age=31540000; Expires=Tue, 16 Nov 2021 03:31:57 GMT; Path=/
+Set-Cookie: deliveryCatchment=1061; Max-Age=1800; Expires=Mon, 16 Nov 2020 02:55:17 GMT; Path=/
+Set-Cookie: walmart.csrf=d4e4c5f87453696f58fc76f8; SameSite=Lax; Path=/
+Set-Cookie: ENV=ak-dfw-prod; Path=/; Secure; Domain=.walmart.ca; max-age=1200
+Set-Cookie: wmt.c=0; Path=/; Domain=.walmart.ca; max-age=604800
+Set-Cookie: vtc=eYSMETAM_6KSESHcNkFzAM;Path=/;Domain=.walmart.ca;Expires=Sat, 16 Nov 2030 14:25:16 GMT;Max-Age=315576000
+Set-Cookie: seqnum=1;Path=/;Domain=.walmart.ca;Expires=Sat, 16 Nov 2030 14:25:16 GMT;Max-Age=315576000
+Set-Cookie: bstc=eYSMETAM_6KSESHcNkFzAM;Path=/;Domain=.walmart.ca;Expires=Mon, 16 Nov 2020 02:55:16 GMT;Max-Age=1800
+Set-Cookie: seqnum=1;Path=/;Domain=.walmart.ca;Expires=Mon, 16 Nov 2020 02:55:16 GMT;Max-Age=1800
+Set-Cookie: TS01f4281b=0130aff232e080789b0cc2f20a02218e9bc04f73817ecafbb2a45a056c999de9e1412add6a388242b3cb7ffbd863a57e3632aea1ed; Path=/; Secure
+Set-Cookie: TS011fb5f6=0130aff232e080789b0cc2f20a02218e9bc04f73817ecafbb2a45a056c999de9e1412add6a388242b3cb7ffbd863a57e3632aea1ed; path=/; domain=.walmart.ca; Secure
+Set-Cookie: userSegment=40-percent; expires=Wed, 16-Dec-2020 02:25:17 GMT; path=/; domain=.www.walmart.ca
+Set-Cookie: akavpau_ca_prod_akamai_vp=1605493817~id=d69c929eeecdd59d7f4e49320bce0f1f; Path=/; Secure; SameSite=None
+Set-Cookie: akavpau_ca_prod_akamai_vp=1605493817~id=d69c929eeecdd59d7f4e49320bce0f1f; Path=/; Secure; SameSite=None
+Access-Control-Allow-Origin: http://www.walmart.ca

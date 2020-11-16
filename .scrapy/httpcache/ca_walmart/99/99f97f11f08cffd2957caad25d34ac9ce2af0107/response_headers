@@ -1,0 +1,15 @@
+Accept-Ranges: bytes
+Content-Encoding: gzip
+Content-Security-Policy: script-src sc-static.net *.walmart.ca *.walmartimages.ca *.wal.co assets.adobedtm.com *.googleadservices.com *.google.ca *.google.com *.gstatic.com *.google-analytics.com *.bing.com *.googletagservices.com *.paypal.com *.paypalobjects.com *.foresee.com *.walmartimages.com *.doubleclick.net *.googlesyndication.com *.criteo.com *.criteo.net *.scorecardresearch.com *.answerscloud.com *.cdn.ampproject.org *.newrelic.com *.ordergroove.com *.facebook.net bam.nr-data.net *.webcollage.net *.iesnare.com *.demdex.net *.googleapis.com *.2mdn.net *.walmart.com *.omtrdc.net *.circularhub.com *.youtube.com *.postescanada-canadapost.ca *.bazaarvoice.com *.ytimg.com *.device.4seeresults.com *.custhelp.com *.rnengage.com *.moatads.com *.casalemedia.com *.hlserve.com dnisjsqid2b9p.cloudfront.net *.myregistry.com *.rmtag.com *.pinimg.com *.storetail.io *.storetail.net *.agkn.com *.facebook.com *.googletagmanager.com *.perimeterx.net *.recaptcha.net *.gstatic.cn 'unsafe-inline' 'unsafe-eval'; base-uri * 'self';
+Content-Type: text/plain
+Last-Modified: Thu, 12 Nov 2020 15:48:16 GMT
+Timing-Allow-Origin: *
+Timing-Allow-Origin: *
+X-Forwarded-For: nginx-play.production.fe.walmartca.dfw.prod.walmart.com
+X-Lrn: 1
+X-Tb: 0
+Cache-Control: max-age=31536000
+Expires: Tue, 16 Nov 2021 02:25:16 GMT
+Date: Mon, 16 Nov 2020 02:25:16 GMT
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: http://www.walmart.ca
