@@ -1,7 +1,7 @@
 import scrapy
-
+import json
+import re
 from scrapers.items import ProductItem
-
 
 class CaWalmartSpider(scrapy.Spider):
     name = "ca_walmart"
@@ -9,4 +9,8 @@ class CaWalmartSpider(scrapy.Spider):
     start_urls = ["https://www.walmart.ca/en/grocery/fruits-vegetables/fruits/N-3852"]
 
     def parse(self, response):
-        pass
+        with open("test.html", 'wb') as file:
+            file.write(response.body)
+
+        if not response.meta.get('solve_captcha',False): 
+            print("CAPTCHA")
