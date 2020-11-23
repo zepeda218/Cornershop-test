@@ -23,16 +23,29 @@ class CaWalmartSpider(scrapy.Spider):
             yield response.follow(next_page, callback=self.parse)
         
     def parse_item(self, response, url):
+        product = json.loads(response.css('.evlleax2 > script:nth-child(1)::text').get())
+
+        sku = product['sku']
+        description = product['description']
+        name = product['name']
+        brand = product['brand']['name']
+        image_url = product['image']
+
         for info in response.css("div.css-0"):
-            yield {
-                # 'store': info.css('h1[data-automation="product-title"]::text').get(),
-                # 'barcodes': info.css('h1[data-automation="product-title"]::text').get(),
-                # 'sku': info.css('h1[data-automation="product-title"]::text').get(),
-                # 'brand': info.css('h1[data-automation="product-title"]::text').get(),
-                'name': info.css('h1[data-automation="product-title"]::text').get(),
-                # 'description': info.css('h1[data-automation="product-title"]::text').get(),
-                # 'package': info.css('h1[data-automation="product-title"]::text').get(),
-                # 'image-url': info.css('h1[data-automation="product-title"]::text').get(),
-                # 'category': info.css('h1[data-automation="product-title"]::text').get(),
-                # 'url': info.css('h1[data-automation="product-title"]::text').get(),
-            }
+            store = info.css('div[data-automation="sold-shipped"] > svg > title::text').get()
+            package = info.css('p[data-automation="short-description"]::text').get()
+            url = response.xpath("//meta[@property='og:url']/@content")[0].extract()
+        
+        item = ProductItem()
+
+        item['store'] = store
+        # item['barcodes'] = store
+        item['sku'] = sku
+        item['brand'] = brand
+        item['name'] = name
+        item['description'] = description
+        item['package'] = package
+        item['image_url'] = image_url
+        # item['category'] = category
+        item['url'] = url
+        

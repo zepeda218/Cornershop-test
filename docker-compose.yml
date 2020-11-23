@@ -5,7 +5,7 @@ services:
     build: ./init_app
     command: bash -c "python database_setup.py && scrapy crawl ca_walmart"
     ports:
-      - "8000:8000"
+      - 8000
     volumes:
       - ".:/cornershop"
       - type: tmpfs
