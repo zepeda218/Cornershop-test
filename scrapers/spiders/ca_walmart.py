@@ -32,20 +32,34 @@ class CaWalmartSpider(scrapy.Spider):
         image_url = product['image']
 
         for info in response.css("div.css-0"):
-            store = info.css('div[data-automation="sold-shipped"] > svg > title::text').get()
-            package = info.css('p[data-automation="short-description"]::text').get()
+            store = info.css('div[data-automation="sold-shipped"] > svg > title').get()
+            package = info.css('p[data-automation="short-description"]').get()
             url = response.xpath("//meta[@property='og:url']/@content")[0].extract()
         
-        item = ProductItem()
+        print(sku)
+        print(description)
+        print(name)
+        print(brand)
+        print(image_url)
+        print(store)
+        print(package)
+        print(url)
 
-        item['store'] = store
-        # item['barcodes'] = store
-        item['sku'] = sku
-        item['brand'] = brand
-        item['name'] = name
-        item['description'] = description
-        item['package'] = package
-        item['image_url'] = image_url
-        # item['category'] = category
-        item['url'] = url
+        # item = ProductItem()
+
+        # item['store'] = store
+        # # item['barcodes'] = store
+        # item['sku'] = sku
+        # item['brand'] = brand
+        # item['name'] = name
+        # item['description'] = description
+        # item['package'] = package
+        # item['image_url'] = image_url
+        # # item['category'] = category
+        # item['url'] = url
+
+        branches = {'3106', '3124'}
+
+        for branch in branches:
+            pass
         
